@@ -1,0 +1,43 @@
+
+#card-style {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    justify-content: space-between;
+    gap: 3%;
+    margin-top: 50px ;
+    margin-left: 20px ;
+    margin-right:20px ;
+    
+}
+
+#search-bar {
+    text-align: center ;
+     margin-top: 20px;
+}
+
+#search-bar input[type=text]{
+
+    width: 400px ;
+}
+
+#search-btn {
+    border-radius: 4px ;
+    border: none ;
+    padding: 3px;
+    background-color: #0d6efd ;
+    color: white ;
+    margin-left: 3px;
+}
+
+#select-category{
+    width: 800px;
+    align-content: center ;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: #7d8591 solid 1px;
+}
+
+#select-category:hover {
+    border: #7d8591 solid 1px;
+}
+
